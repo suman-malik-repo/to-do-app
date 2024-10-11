@@ -1,0 +1,17 @@
+body {
+    background-color: #f8f9fa;
+}
+
+#todo-list, #completed-list {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.completed-task {
+    text-decoration: line-through;
+}
+
+.timestamp {
+    font-size: 0.9em;
+    color: #6c757d;
+}
